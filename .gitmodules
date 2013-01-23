@@ -22,3 +22,6 @@
 [submodule "/Users/benlovell/.vim/bundle/tabular"]
 	path = /Users/benlovell/.vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "/Users/benlovell/.vim/bundle/ack.vim"]
+	path = /Users/benlovell/.vim/bundle/ack.vim
+	url = git://github.com/mileszs/ack.vim.git
