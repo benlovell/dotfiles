@@ -1,0 +1,24 @@
+[submodule "/Users/benlovell/.vim/bundle/command-t"]
+	path = /Users/benlovell/.vim/bundle/command-t
+	url = https://github.com/wincent/Command-T.git
+[submodule "/Users/benlovell/.vim/bundle/vim-coffee-script"]
+	path = /Users/benlovell/.vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "/Users/benlovell/.vim/bundle/vim-colors-solarized"]
+	path = /Users/benlovell/.vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "/Users/benlovell/.vim/bundle/vim-fugitive"]
+	path = /Users/benlovell/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "/Users/benlovell/.vim/bundle/vim-rails"]
+	path = /Users/benlovell/.vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "/Users/benlovell/.vim/bundle/vivid-chalk"]
+	path = /Users/benlovell/.vim/bundle/vivid-chalk
+	url = https://github.com/tpope/vim-vividchalk.git
+[submodule "/Users/benlovell/.vim/bundle/vim-surround"]
+	path = /Users/benlovell/.vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "/Users/benlovell/.vim/bundle/tabular"]
+	path = /Users/benlovell/.vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
