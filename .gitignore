@@ -34,3 +34,18 @@
 /.CFUserTextEncoding
 /.fasd-init-bash
 /.viminfo
+/.Xauthority
+/.android
+/.cpan
+/.cups
+/.fontconfig
+/.gist-vim
+/.gnupg
+/.htoprc
+/.irbrc
+/.mysql_history
+/.node-gyp
+/.npm
+/.rbx
+/VirtualBox VMs
+/vms
