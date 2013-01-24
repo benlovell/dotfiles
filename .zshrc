@@ -3,7 +3,6 @@ export GREP_OPTIONS="--color"
 export HISTSIZE=100000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
-export PROMPT="%~%%: "
 
 export EDITOR=vim
 
@@ -38,3 +37,6 @@ alias zcuke="zeus cucumber"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+source zshrc.sh
+export PROMPT='%B%m%~%b$(git_super_status) %# '
