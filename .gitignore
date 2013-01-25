@@ -50,3 +50,5 @@
 /VirtualBox VMs
 /vms
 /.vim/.netrwhist
+/.netrc
+/.heroku
