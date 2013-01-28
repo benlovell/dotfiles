@@ -1,10 +1,9 @@
+export PROMPT='%B%m%~%b %# '
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 export HISTSIZE=100000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
-export PROMPT="%~%%: "
-
 export EDITOR=vim
 
 bindkey -v
@@ -38,5 +37,3 @@ alias zcuke="zeus cucumber"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-export PROMPT='%B%m%~%b %# '
