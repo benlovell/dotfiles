@@ -58,7 +58,6 @@ imap jj <Esc>
 
 let g:CommandTMaxHeight=10
 let g:CommandTMinHeight=4
-let g:ackprg = 'ag --nogroup --nocolor --column'
 
 map <leader>gv :CommandTFlush<cr>\|:CommandT app/views<cr>
 map <leader>gc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
