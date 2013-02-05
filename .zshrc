@@ -35,7 +35,5 @@ alias zg="zeus g"
 alias zspec="zeus rspec spec"
 alias zcuke="zeus cucumber"
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=/usr/local/bin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-PATH=$PATH:/usr/local/sbin #for brew
