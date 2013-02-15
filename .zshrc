@@ -25,6 +25,8 @@ alias la="ls -laSh"
 alias gs="git status"
 alias gd="git diff"
 alias gp="git push"
+alias gps="git pull --recurse-submodules"
+alias gpom="git push origin master"
 alias ga="git add -A"
 alias gc="git commit -am"
 

@@ -30,4 +30,4 @@
 	url = https://github.com/benmills/vimux.git
 [submodule ".vim/bundle/vim-turbux"]
 	path = .vim/bundle/vim-turbux
-	url = https://github.com/jgdavey/vim-turbux.git
+	url = git@github.com:benlovell/vim-turbux.git
