@@ -52,3 +52,5 @@
 /.netrc
 /.heroku
 /.erlang.cookie
+/.rnd
+/.subversion/

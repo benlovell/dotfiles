@@ -28,7 +28,7 @@ alias gp="git push"
 alias gps="git pull --recurse-submodules"
 alias gpom="git push origin master"
 alias ga="git add -A"
-alias gc="git commit -am"
+alias gc="git commit --verbose"
 
 alias tfdl="tail -f log/development.log -n200"
 alias zs="zeus start"
@@ -37,5 +37,13 @@ alias zg="zeus g"
 alias zspec="zeus rspec spec"
 alias zcuke="zeus cucumber"
 
-PATH=/usr/local/sbin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _complete _ignored
+zstyle :compinstall filename '/Users/benlovell/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall

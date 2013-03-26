@@ -3,3 +3,5 @@
 	email = benjamin.lovell@gmail.com
 [color]
 	ui = true
+[push]
+	default = current
