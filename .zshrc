@@ -37,6 +37,9 @@ alias zg="zeus g"
 alias zspec="zeus rspec spec"
 alias zcuke="zeus cucumber"
 
+alias ber="bundle exec ruby"
+alias be="bundle exec"
+
 PATH=/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 # The following lines were added by compinstall
