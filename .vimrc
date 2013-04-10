@@ -13,6 +13,7 @@ set clipboard+=unnamed
 
 filetype plugin indent on
 syntax enable
+autocmd BufNewFile,BufRead Gemfile setlocal filetype=ruby
 
 set background=dark
 colorscheme solarized
