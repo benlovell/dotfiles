@@ -161,9 +161,9 @@ statusbar = {
     topic_empty = " Irssi v$J - http://www.irssi.org";
 
     # all of these treated specially, they're only displayed when needed
-    lag = "{sb Lag: $0-}";
+    lag = "{sb Lag: %m$0-%n}";
     act = "{sb Act: $0-}";
-    more = "-- more --";
+    more = "%k%3-- more --%n";
   };
 
   # there's two type of statusbars. root statusbars are either at the top
@@ -245,6 +245,10 @@ statusbar = {
   };
 };
 settings = {
+  "fe-common/core" = {
+    theme = "solarized-universal";
+    hilight_color = "= %R";
+  };
   core = {
     real_name = "Ben Lovell";
     user_name = "benlovell";
@@ -252,3 +256,6 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
 };
+hilights = (
+        { text = "benlovell"; color = "%M"; nick = "yes"; word = "yes"; }
+);
