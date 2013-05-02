@@ -10,6 +10,7 @@ set nowritebackup
 set number
 set showmatch
 set clipboard+=unnamed
+set tags+=.tags
 
 filetype plugin indent on
 syntax enable
@@ -71,3 +72,6 @@ map <leader>gg :topleft 100 :split Gemfile<cr>
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 
 let g:VimuxUseNearestPane = 1
+
+command! GenerateTags call system('ctags -Rf ./.tags --exclude=.git') | echo
+nmap <F5> :GenerateTags<CR>
