@@ -29,6 +29,7 @@ alias gps="git pull --recurse-submodules"
 alias gpom="git push origin master"
 alias ga="git add -A"
 alias gc="git commit --verbose"
+alias gl="git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
 
 alias tfdl="tail -f log/development.log -n200"
 alias zs="zeus start"
