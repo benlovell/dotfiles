@@ -15,6 +15,9 @@ setopt auto_pushd
 setopt AUTOCD
 setopt CORRECT CORRECT_ALL
 
+alias vim="mvim -v"
+alias vi="mvim -v"
+
 alias ze="vim ~/.zshrc"
 alias zr="source ~/.zshrc"
 alias ve="vim ~/.vimrc"

@@ -34,6 +34,6 @@
 [submodule ".vim/bundle/gruvbox"]
 	path = .vim/bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
-[submodule "/Users/benlovell/.vim/bundle/YouCompleteMe"]
-	path = /Users/benlovell/.vim/bundle/YouCompleteMe
+[submodule ".vim/bundle/YouCompleteMe"]
+	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
