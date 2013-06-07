@@ -1,2 +1,6 @@
 require "rubygems"
-require "interactive_editor"
+begin
+  require "interactive_editor"
+rescue LoadError
+  puts "gem install interactive_editor"
+end
