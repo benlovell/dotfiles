@@ -4,7 +4,7 @@ export GREP_OPTIONS="--color"
 export HISTSIZE=100000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
-export EDITOR=vim
+export EDITOR="mvim -v"
 
 bindkey -v
 bindkey "^A" beginning-of-line
