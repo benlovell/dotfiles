@@ -73,8 +73,7 @@ map <leader>gf :CommandTFlush<cr>\|:CommandT features<cr>
 map <leader>gg :topleft 100 :split Gemfile<cr>
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 
+map <Leader>gr :call VimuxRunCommand("clear; go run " . bufname("%"))<CR>
+
 let g:VimuxUseNearestPane = 1
 let g:ackprg = 'ag --nogroup --nocolor --column'
-
-command! GenerateTags call system('ctags -Rf ./.tags --exclude=.git') | echo
-nmap <F5> :GenerateTags<CR>
