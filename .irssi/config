@@ -1,5 +1,10 @@
 servers = (
-  { address = "irc.freenode.net"; chatnet = "Freenode"; port = "6667"; autoconnect = "yes"; }
+  {
+    address = "irc.freenode.net";
+    chatnet = "Freenode";
+    port = "6667";
+    autoconnect = "yes";
+  }
 );
 
 chatnets = {
@@ -80,7 +85,7 @@ channels = (
   { name = "#rubinius"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#jruby"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#shitfire"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#ruby-lang"; chatnet = "Freenode"; autojoin = "Yes"; }
+  { name = "#ruby-lang"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#go-nuts"; chatnet = "Freenode"; autojoin = "Yes"; }
 );
 
@@ -246,9 +251,7 @@ statusbar = {
   };
 };
 settings = {
-  "perl/core/scripts" = {
-    notifier_on_regex = "benlovell";
-  };
+  "perl/core/scripts" = { notifier_on_regex = "benlovell"; };
   "fe-common/core" = {
     theme = "solarized-universal";
     hilight_color = "= %R";
