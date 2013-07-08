@@ -7,11 +7,10 @@ set cursorline
 set noswapfile
 set nobackup
 set nowritebackup
-set number
 set showmatch
 set clipboard+=unnamed
 set tags+=.tags
-set relativenumber
+set rnu
 
 filetype plugin indent on
 syntax enable
