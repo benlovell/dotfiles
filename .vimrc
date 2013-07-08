@@ -11,6 +11,7 @@ set number
 set showmatch
 set clipboard+=unnamed
 set tags+=.tags
+set relativenumber
 
 filetype plugin indent on
 syntax enable
