@@ -86,7 +86,8 @@ channels = (
   { name = "#jruby"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#shitfire"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#ruby-lang"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#go-nuts"; chatnet = "Freenode"; autojoin = "Yes"; }
+  { name = "#go-nuts"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#realtalkio"; chatnet = "Freenode"; autojoin = "Yes"; }
 );
 
 aliases = {
