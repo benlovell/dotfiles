@@ -38,7 +38,7 @@ alias tfdl="tail -f log/development.log -n200"
 alias zs="zeus start"
 alias zc="zeus console"
 alias zg="zeus g"
-alias zspec="zeus rspec spec"
+alias zspec="zeus rspec"
 alias zcuke="zeus cucumber"
 
 alias ber="bundle exec ruby"

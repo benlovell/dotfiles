@@ -19,7 +19,7 @@ autocmd BufNewFile,BufRead Gemfile setlocal filetype=ruby
 au BufRead,BufNewFile *.go set filetype=go
 
 set background=dark
-colorscheme solarized
+colorscheme desert
 
 set nowrap
 set tabstop=2
@@ -76,4 +76,5 @@ map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 map <Leader>gr :call VimuxRunCommand("clear; go run " . bufname("%"))<CR>
 
 let g:VimuxUseNearestPane = 1
+let g:turbux_command_rspec  = 'zspec'
 let g:ackprg = 'ag --nogroup --nocolor --column'

@@ -262,7 +262,7 @@ settings = {
     user_name = "benlovell";
     nick = "benlovell";
   };
-  "fe-text" = { actlist_sort = "refnum"; };
+  "fe-text" = { actlist_sort = "refnum"; colors = "yes"; };
 };
 hilights = (
   { text = "benlovell"; color = "%M"; nick = "yes"; word = "yes"; }
