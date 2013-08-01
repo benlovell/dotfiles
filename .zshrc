@@ -23,6 +23,7 @@ alias zr="source ~/.zshrc"
 alias ve="vim ~/.vimrc"
 alias te="vim ~/.tmux.conf"
 
+alias ls="ls -G"
 alias la="ls -laSh"
 
 alias gs="git status"
