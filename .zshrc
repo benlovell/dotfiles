@@ -4,7 +4,7 @@ export GREP_OPTIONS="--color"
 export HISTSIZE=100000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
-export EDITOR="mvim -v"
+export EDITOR="vim"
 
 bindkey -v
 bindkey "^A" beginning-of-line
@@ -14,9 +14,6 @@ setopt prompt_subst
 setopt auto_pushd
 setopt AUTOCD
 setopt CORRECT CORRECT_ALL
-
-alias vim="mvim -v"
-alias vi="mvim -v"
 
 alias ze="vim ~/.zshrc"
 alias zr="source ~/.zshrc"
@@ -45,8 +42,8 @@ alias zcuke="zeus cucumber"
 alias ber="bundle exec ruby"
 alias be="bundle exec"
 
-PATH=/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+PATH=/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored

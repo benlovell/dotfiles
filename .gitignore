@@ -9,7 +9,6 @@
 /.irb-history
 /Library
 /.bash_history
-/.rvm
 /.pry_history
 /Downloads
 /.dropbox
@@ -57,3 +56,5 @@
 /.erlang.cookie
 /.rnd
 /.subversion/
+/.rbenv
+/.vagrant.d
