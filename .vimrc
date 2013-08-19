@@ -76,5 +76,6 @@ map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 map <Leader>gr :call VimuxRunCommand("clear; go run " . bufname("%"))<CR>
 
 let g:VimuxUseNearestPane = 1
-let g:turbux_command_rspec  = 'zspec'
+let g:turbux_command_rspec_with_zeus = 'zspec'
+let g:turbux_command_rspec = 'be rspec'
 let g:ackprg = 'ag --nogroup --nocolor --column'
