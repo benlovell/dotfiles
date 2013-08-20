@@ -19,7 +19,7 @@ autocmd BufNewFile,BufRead Gemfile setlocal filetype=ruby
 au BufRead,BufNewFile *.go set filetype=go
 
 set background=dark
-colorscheme desert
+colorscheme solarized
 
 set nowrap
 set tabstop=2
