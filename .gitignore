@@ -58,3 +58,4 @@
 /.subversion/
 /.rbenv
 /.vagrant.d
+/.puppet
