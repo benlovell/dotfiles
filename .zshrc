@@ -52,3 +52,6 @@ zstyle :compinstall filename '/Users/benlovell/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+# added by travis gem
+source /Users/benlovell/.travis/travis.sh
