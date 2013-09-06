@@ -80,14 +80,14 @@ chatnets = {
 };
 
 channels = (
+  { name = "#shitfire"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#celluloid"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#sinatra"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#rabbitmq"; chatnet = "Freenode"; autojoin = "Yes"; },
+  { name = "#vagrant"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#rubinius"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#jruby"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#shitfire"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#ruby-lang"; chatnet = "Freenode"; autojoin = "Yes"; },
   { name = "#go-nuts"; chatnet = "Freenode"; autojoin = "Yes"; },
-  { name = "#realtalkio"; chatnet = "Freenode"; autojoin = "Yes"; }
 );
 
 aliases = {
