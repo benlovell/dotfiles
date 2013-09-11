@@ -21,6 +21,7 @@ au BufRead,BufNewFile *.go set filetype=go
 set background=dark
 colorscheme solarized
 
+set autoread
 set nowrap
 set tabstop=2
 set shiftwidth=2
