@@ -55,3 +55,9 @@ compinit
 
 # added by travis gem
 source /Users/benlovell/.travis/travis.sh
+
+
+# BEGIN Ruboto setup
+source ~/.rubotorc
+# END Ruboto setup
+
