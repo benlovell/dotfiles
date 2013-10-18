@@ -25,12 +25,6 @@
 [submodule ".vim/bundle/ack.vim"]
 	path = .vim/bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
-[submodule ".vim/bundle/vimux"]
-	path = .vim/bundle/vimux
-	url = https://github.com/benmills/vimux.git
-[submodule ".vim/bundle/vim-turbux"]
-	path = .vim/bundle/vim-turbux
-	url = git@github.com:benlovell/vim-turbux.git
 [submodule ".vim/bundle/gruvbox"]
 	path = .vim/bundle/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
@@ -43,6 +37,9 @@
 [submodule ".vim/bundle/vim-slim"]
 	path = .vim/bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim.git
-[submodule "/Users/benlovell/.vim/bundle/tslime"]
-	path = /Users/benlovell/.vim/bundle/tslime
+[submodule ".vim/bundle/tslime"]
+	path = .vim/bundle/tslime
 	url = https://github.com/jgdavey/tslime.vim
+[submodule ".vim/bundle/vim-turbux"]
+	path = .vim/bundle/vim-turbux
+	url = git@github.com:jgdavey/vim-turbux.git

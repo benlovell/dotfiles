@@ -13,7 +13,7 @@ bindkey "^E" end-of-line
 setopt prompt_subst
 setopt auto_pushd
 setopt AUTOCD
-setopt CORRECT CORRECT_ALL
+setopt CORRECT
 
 alias ze="vim ~/.zshrc"
 alias zr="source ~/.zshrc"
