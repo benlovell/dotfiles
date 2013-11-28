@@ -77,3 +77,4 @@ map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 let g:turbux_command_rspec_with_zeus = 'zspec'
 let g:turbux_command_rspec = 'be rspec'
 let g:ackprg = 'ag --nogroup --nocolor --column'
+let g:VimuxUseNearestPane = 1

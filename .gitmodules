@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/vim-turbux"]
 	path = .vim/bundle/vim-turbux
 	url = git@github.com:jgdavey/vim-turbux.git
+[submodule ".vim/bundle/vim-dgbp"]
+	path = .vim/bundle/vim-dgbp
+	url = git@github.com:jsoriano/vim-dbgp.git
