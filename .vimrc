@@ -35,6 +35,7 @@ set smartcase
 set list
 set listchars=trail:.,extends:#,nbsp:.
 nnoremap <leader>a <Esc>:Ack!
+nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 let mapleader=","
 
