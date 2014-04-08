@@ -34,7 +34,7 @@ set ignorecase
 set smartcase
 set list
 set listchars=trail:.,extends:#,nbsp:.
-nnoremap <leader>a <Esc>:Ack!
+
 nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 let mapleader=","
@@ -75,7 +75,10 @@ map <leader>gf :CommandTFlush<cr>\|:CommandT features<cr>
 map <leader>gg :topleft 100 :split Gemfile<cr>
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 
-let g:turbux_command_rspec_with_zeus = 'zspec'
-let g:turbux_command_rspec = 'be rspec'
+map <Leader>T :call RunCurrentSpecFile()<CR>
+map <Leader>t :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+let g:rspec_command = "Dispatch bundle exec rspec {spec}"
 let g:ackprg = 'ag --nogroup --nocolor --column'
-let g:VimuxUseNearestPane = 1

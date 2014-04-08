@@ -49,3 +49,9 @@
 [submodule ".vim/bundle/vim-gitgutter"]
 	path = .vim/bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule ".vim/bundle/vim-rspec"]
+	path = .vim/bundle/vim-rspec
+	url = git@github.com:thoughtbot/vim-rspec.git
+[submodule ".vim/bundle/vim-dispatch"]
+	path = .vim/bundle/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
