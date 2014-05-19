@@ -23,14 +23,14 @@ alias te="vim ~/.tmux.conf"
 alias ls="ls -G"
 alias la="ls -laSh"
 
-alias gs="git status"
+alias gs="git status -sb"
 alias gd="git diff"
 alias gp="git push"
 alias gps="git pull --recurse-submodules"
 alias gpom="git push origin master"
 alias ga="git add -A"
 alias gc="git commit --verbose"
-alias gl="git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
+alias gl="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
 alias tfdl="tail -f log/development.log -n200"
 alias zs="zeus start"
@@ -55,9 +55,4 @@ compinit
 
 # added by travis gem
 source /Users/benlovell/.travis/travis.sh
-
-
-# BEGIN Ruboto setup
-source ~/.rubotorc
-# END Ruboto setup
 
