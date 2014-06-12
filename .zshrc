@@ -42,7 +42,7 @@ alias zcuke="zeus cucumber"
 alias ber="bundle exec ruby"
 alias be="bundle exec"
 
-PATH=/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$PATH
+PATH=$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # The following lines were added by compinstall
 
