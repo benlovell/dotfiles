@@ -42,10 +42,6 @@ alias zcuke="zeus cucumber"
 alias ber="bundle exec ruby"
 alias be="bundle exec"
 
-PATH=$HOME/.rbenv/bin:/usr/local/bin:/usr/local/sbin:$PATH
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-# The following lines were added by compinstall
-
 zstyle ':completion:*' completer _complete _ignored
 zstyle :compinstall filename '/Users/benlovell/.zshrc'
 
@@ -53,6 +49,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# added by travis gem
-source /Users/benlovell/.travis/travis.sh
-
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
