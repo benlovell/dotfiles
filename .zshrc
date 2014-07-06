@@ -23,6 +23,7 @@ alias te="vim ~/.tmux.conf"
 alias ls="ls -G"
 alias la="ls -laSh"
 
+alias ghp="hub pull-request"
 alias gs="git status -sb"
 alias gd="git diff"
 alias gp="git push"
