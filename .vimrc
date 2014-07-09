@@ -10,6 +10,7 @@ set nowritebackup
 set showmatch
 set clipboard+=unnamed
 set tags+=.tags
+set number
 
 filetype plugin indent on
 syntax enable
