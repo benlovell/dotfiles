@@ -43,6 +43,8 @@ alias zcuke="zeus cucumber"
 alias ber="bundle exec ruby"
 alias be="bundle exec"
 
+alias sniff="sudo tcpdump -n -ilo0 -A -s0 tcp port 3000"
+
 zstyle ':completion:*' completer _complete _ignored
 zstyle :compinstall filename '/Users/benlovell/.zshrc'
 
