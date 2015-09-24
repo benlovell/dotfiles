@@ -68,6 +68,7 @@ map <Leader>T :call RunCurrentSpecFile()<CR>
 map <Leader>t :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+map <Leader>m :Dispatch bundle exec rake test TEST=%<CR>
 
 let g:rspec_command = "Dispatch bundle exec rspec {spec}"
 let g:ackprg = 'ag --nogroup --nocolor --column'
