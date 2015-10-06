@@ -5,9 +5,10 @@ export HISTSIZE=100000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 export EDITOR="vim"
-
+export GOPATH=/Users/benlovell/code
+export GOROOT=/usr/local/Cellar/go/1.5.1/libexec
 bindkey -v
-bindkey "^A" beginning-of-line
+bindkey "^B" beginning-of-line
 bindkey "^E" end-of-line
 
 setopt prompt_subst
@@ -52,5 +53,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH:$GOPATH/bin"
 eval "$(rbenv init -)"
