@@ -1,4 +1,4 @@
-export PROMPT='%B%m%~%b %# '
+export PROMPT='%B%m%~%1d %# '
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 export HISTSIZE=100000
@@ -33,11 +33,6 @@ alias gc="git commit --verbose"
 alias gl="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
 alias tfdl="tail -f log/development.log -n200"
-alias zs="zeus start"
-alias zc="zeus console"
-alias zg="zeus g"
-alias zspec="zeus rspec"
-alias zcuke="zeus cucumber"
 
 alias ber="bundle exec ruby"
 alias be="bundle exec"
