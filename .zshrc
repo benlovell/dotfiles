@@ -1,4 +1,4 @@
-export PROMPT='%B%m%~%1d %# '
+export PROMPT='%m%~%1d %b%#%b '
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 export HISTSIZE=100000
