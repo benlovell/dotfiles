@@ -62,6 +62,9 @@ imap jj <Esc>
 
 map <leader>f :CtrlP<cr>
 
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
 map <Leader>T :call RunCurrentSpecFile()<CR>
 map <Leader>t :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
