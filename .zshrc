@@ -46,5 +46,5 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
