@@ -2,7 +2,7 @@ export PROMPT='%m%~% %b <`git symbolic-ref --short HEAD`> # %b'
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 export HISTSIZE=100000
-export HISTFILE="$HOME/.history"
+export HISTFILE="$HOME/.zsh_history"
 export SAVEHIST=$HISTSIZE
 export EDITOR="vim"
 bindkey -v
@@ -13,6 +13,14 @@ setopt prompt_subst
 setopt auto_pushd
 setopt AUTOCD
 setopt CORRECT
+setopt append_history
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups # ignore duplication command history list
+setopt hist_ignore_space
+setopt hist_verify
+setopt inc_append_history
+setopt share_history # share command history data
 
 alias ze="vim ~/.zshrc"
 alias zr="source ~/.zshrc"
