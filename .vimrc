@@ -17,7 +17,7 @@ syntax enable
 autocmd BufNewFile,BufRead Gemfile setlocal filetype=ruby
 
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme solarized
 
 set autoread
 set nowrap
