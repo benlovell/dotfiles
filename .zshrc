@@ -40,8 +40,6 @@ alias ga="git add -A"
 alias gc="git commit --verbose"
 alias gl="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
-alias tfdl="tail -f log/development.log -n200"
-
 alias ber="bundle exec ruby"
 alias be="bundle exec"
 
