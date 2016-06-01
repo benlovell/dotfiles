@@ -1,6 +1,7 @@
 [user]
 	name = Ben Lovell
 	email = benjamin.lovell@gmail.com
+	signingkey = 88938EE8
 [color]
 	ui = true
 [push]
