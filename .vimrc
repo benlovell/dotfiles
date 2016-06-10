@@ -15,9 +15,10 @@ filetype plugin indent on
 syntax enable
 
 autocmd BufNewFile,BufRead Gemfile setlocal filetype=ruby
+autocmd BufNewFile,BufRead *.jbuilder setlocal filetype=ruby
 
 set background=dark
-colorscheme solarized
+colorscheme Tomorrow-Night
 
 set autoread
 set nowrap
