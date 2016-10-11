@@ -16,6 +16,7 @@ syntax enable
 
 autocmd BufNewFile,BufRead Gemfile setlocal filetype=ruby
 autocmd BufNewFile,BufRead *.jbuilder setlocal filetype=ruby
+autocmd BufNewFile,BufRead *.es6 setlocal filetype=javascript
 
 set background=dark
 colorscheme Tomorrow-Night
