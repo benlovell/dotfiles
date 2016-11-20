@@ -39,10 +39,6 @@ nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 let mapleader=","
 
-let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '⬥ ok']
-let g:ale_sign_error = '⨉'
-let g:ale_sign_warning = '⚠'
-
 if has("statusline") && !&cp
   set laststatus=2
   set statusline=%f\ %m\ %r
@@ -50,7 +46,6 @@ if has("statusline") && !&cp
   set statusline+=\ Line:%l/%L[%p%%]
   set statusline+=\ Col:%v
   set statusline+=\ Buf:#%n
-  set statusline+=\ %{ALEGetStatusLine()}
 endif
 
 nnoremap <leader><leader> <c-^>
