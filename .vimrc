@@ -34,6 +34,7 @@ set ignorecase
 set smartcase
 set list
 set listchars=trail:.,extends:#,nbsp:.
+set scrolloff=5
 
 nnoremap K :Ack "\b<C-R><C-W>\b"<CR>:cw<CR>
 
