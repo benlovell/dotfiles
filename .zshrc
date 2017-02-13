@@ -9,6 +9,7 @@ bindkey -v
 bindkey "^B" beginning-of-line
 bindkey "^E" end-of-line
 
+setopt no_global_rcs
 setopt prompt_subst
 setopt auto_pushd
 setopt AUTOCD
@@ -52,5 +53,6 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-export PATH="$HOME/.rbenv/bin:/usr/local/bin:$PATH"
-eval "$(rbenv init -)"
+# chruby stuff
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
