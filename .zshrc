@@ -47,6 +47,7 @@ alias be="bundle exec"
 alias sniff="sudo tcpdump -n -ilo0 -A -s0 tcp port 3000"
 
 alias mailgun="heroku addons:open thinking-vastly-4396"
+alias newrelic="heroku addons:open growing-coyly-5669"
 
 zstyle ':completion:*' completer _complete _ignored
 zstyle :compinstall filename '/Users/benlovell/.zshrc'
