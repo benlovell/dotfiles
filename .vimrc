@@ -11,6 +11,9 @@ set showmatch
 set clipboard+=unnamed
 set number
 
+set undofile
+set undodir=$HOME/.vim/undo
+
 filetype plugin indent on
 syntax enable
 
