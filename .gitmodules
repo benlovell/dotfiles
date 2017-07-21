@@ -64,3 +64,6 @@
 [submodule ".vim/bundle/ale"]
 	path = .vim/bundle/ale
 	url = https://github.com/w0rp/ale.git
+[submodule ".vim/bundle/vim-rhubard"]
+	path = .vim/bundle/vim-rhubard
+	url = https://github.com/tpope/vim-rhubarb.git
