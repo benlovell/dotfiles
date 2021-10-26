@@ -50,6 +50,8 @@ alias mailgun="heroku addons:open thinking-vastly-4396"
 alias tap_mailgun="heroku addons:open mailgun-pointy-22546"
 alias newrelic="heroku addons:open growing-coyly-5669"
 
+alias mapsvpn="sshuttle --dns -r vpn 10.20.0.0/13 --method auto --no-latency-control"
+
 zstyle ':completion:*' completer _complete _ignored
 zstyle :compinstall filename '/Users/benlovell/.zshrc'
 
@@ -60,3 +62,10 @@ compinit
 # chruby stuff
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# added by travis gem
+[ -f /Users/benlovell/.travis/travis.sh ] && source /Users/benlovell/.travis/travis.sh
+
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion

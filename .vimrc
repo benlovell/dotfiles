@@ -8,7 +8,7 @@ set noswapfile
 set nobackup
 set nowritebackup
 set showmatch
-set clipboard+=unnamed
+set clipboard=unnamed
 set number
 
 set undofile
